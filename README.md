@@ -68,6 +68,7 @@ npm install
 node server.js
 ```
 ## 3. Running the Mobile App (Frontend)
+``` bash
 # Navigate to mobile app directory
 cd 180-mobile-app
 
@@ -76,13 +77,17 @@ npm install
 
 # Start Expo development server
 npx expo start
+```
 
 ## 🔒 Environment & Configuration
-To connect the mobile app with your backend server, configure the API endpoint inside 180-mobile-app/src/config/api.js:
+```To connect the mobile app with your backend server, configure the API endpoint inside 180-mobile-app/src/config/api.js:
 
 export const API_URL = 'http://YOUR_LOCAL_IP:5000/api';
+```
 
 ## 👤 Author
+```
 Developed with ❤️ for 180 Daraga Organization.
+```
 
 
