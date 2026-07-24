@@ -44,3 +44,45 @@ An integrated full-stack cross-platform application developed for **180 Daraga**
     ├── routes/          # Express route endpoints
     ├── server.js        # Server entry point
     └── package.json
+ذذ
+```
+## 🚀 Getting Started
+
+### 1. Prerequisites
+Ensure you have the following installed on your machine:
+* [Node.js](https://nodejs.org/) (v16+ recommended)
+* [Expo Go](https://expo.dev/go) app installed on your physical device (or an Android/iOS Emulator)
+
+---
+
+### 2. Running the Backend Server
+
+```bash
+# Navigate to backend directory
+cd backend
+
+# Install dependencies
+npm install
+
+# Start the Node.js server
+node server.js
+```
+## 3. Running the Mobile App (Frontend)
+# Navigate to mobile app directory
+cd 180-mobile-app
+
+# Install dependencies
+npm install
+
+# Start Expo development server
+npx expo start
+
+## 🔒 Environment & Configuration
+To connect the mobile app with your backend server, configure the API endpoint inside 180-mobile-app/src/config/api.js:
+
+export const API_URL = 'http://YOUR_LOCAL_IP:5000/api';
+
+## 👤 Author
+Developed with ❤️ for 180 Daraga Organization.
+
+
