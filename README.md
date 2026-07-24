@@ -81,7 +81,6 @@ npx expo start
 
 ## 🔒 Environment & Configuration
 ```To connect the mobile app with your backend server, configure the API endpoint inside 180-mobile-app/src/config/api.js:
-
 export const API_URL = 'http://YOUR_LOCAL_IP:5000/api';
 ```
 
